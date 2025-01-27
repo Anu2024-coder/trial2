@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="search on google" name="q">
+        <button type="search">search</button>
+    </form>
+    <form action="/server"> 
+        <input type="checkbox" name="age" id="age" checked>
+        <label for="age">I am 18+</label>
+    </form>
+    <form>
+        <label for="Hobbies">Hobbies</label><br>
+        <input type="checkbox" name="hobbies">singing<br>
+        <input type="checkbox" name="hobbies">dancing<br>
+        <input type="checkbox" name="hobbies">coding<br>
+        <input type="checkbox" name="hobbies">travelling<br>
+
+    </form>
+    <form>
+        <label for="Hobbies">Hobbies</label><br>
+        <input type="radio" name="hobbies">singing<br>
+        <input type="radio" name="hobbies">dancing<br>
+        <input type="radio" name="hobbies">coding<br>
+        <input type="radio" name="hobbies">travelling<br>
+
+    </form>
+    <form>
+        choose your profession
+        <select name="profession" id="profession">
+            <option>select your option</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="police">Police</option>
+            <option value="engineer"selected>Engineer</option>
+            <option value="farmer">Farmer</option>
+            <option value="doctor">Doctor</option>
+            
+        </select>
+        <label for="volume">Select the volume level:</label>
+        <input type="range" id="volume" name="volume" min="0" max="200" step="10"> <br>
+        <label for="feedback">please give your valuable feedback:</label>
+        <textarea id="feedback" name="feedback" rows="10" columns="100"></textarea>
+        <button>submit</button>
+    </form>
+</body>
+</html>
